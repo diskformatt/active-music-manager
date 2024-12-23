@@ -1,1 +1,7 @@
-2024-11-17: initial release
+2024-11-17: initial release (tkinter version)
+
+2024-12-22: 
+- Rewrote to be terminal-based.
+- can now detect when an album is both active and archived
+- config file loading is now enclosed in "try" statement. program will not load if config file not found.
+- move history during current session can now be accessed at any time using "hist" command
